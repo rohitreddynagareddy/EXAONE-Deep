@@ -418,14 +418,14 @@ EXAONE Deep models have been integrated into various deployment frameworks.
 
 ### TensorRT-LLM
 
-TensorRT-LLM has supported EXAONE language models since EXAONE 3.0. We recommend using TensorRT-LLM for the best performance. You can run EXAONE Deep models with TensorRT-LLM by following the instructions on [TensorRT-LLM EXAONE Example](https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/exaone).
+TensorRT-LLM has supported EXAONE language models since EXAONE 3.0. We recommend using TensorRT-LLM for the best performance. You can run EXAONE Deep models with TensorRT-LLM by following the instructions on [TensorRT-LLM EXAONE Example](https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/models/core/exaone).
 
 > [!Note]
 > When you convert EXAONE Deep models to TensorRT-LLM format, you may need to set the environment variable `TRTLLM_DISABLE_UNIFIED_CONVERTER=1`.
 
 > [!Note]
 > TensorRT-LLM also supports AWQ on their own methods.
-> If you want to use AWQ with TensorRT-LLM, please refer to the [AWQ section](https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/exaone#groupwise-quantization-awq) in TensorRT-LLM EXAONE Example.
+> If you want to use AWQ with TensorRT-LLM, please refer to the [AWQ section](https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/models/core/exaone#groupwise-quantization-awq) in TensorRT-LLM EXAONE Example.
 
 ### vLLM
 
